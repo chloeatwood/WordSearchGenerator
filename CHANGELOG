@@ -1,0 +1,27 @@
+01/23/2025: Started project. Messed around in Emacs and Command Prompt to figure out how things worked.
+            - Also messed around with stuff in VSCode and decided to wirte the code in VSCode then test it
+            with Pyrite to make sure it works with that too.
+            - Got annoyed with VSCode not working the same as emacs and decided to work in emacs instead
+	    	due to compiler in VSCode not working the same as stuff inclass
+	    	- Wrote out steps in comments that I want to do
+	    	- Got downward, rightward, diagonal up, and diagonal down placement working without worrying 
+	    	about invalid placements  or multiple words/overlapping words
+	    	- Bugs Include: Multiple typing errors (Spelling, hit wrong key), I was using the test word 
+	   		dogs and placement was allowed even when the word was too long for the direction it was going
+01/24/2025: Attempted to make the code rotate through directions and positions if it was detected that the
+			word would not fit in the spot but failed. Ended up taking what I had of my code and going 
+			through the whole thing and rewriting it but in a simpler way in order to understand it better
+			- I also added more comments and used comment lines to divide code to make it easier to read
+			- Realized I need to practice working with pointers
+01/25/2025: Added functionality to rotated through directions and positions when the spot did not have enough
+			room for the words.
+			- Looked into how to use pointers and simplified code further
+			- Added the funcionality to check for letters and if the letter matches the corresponding locaiton 
+			in the word the word will still be placed but if the letter is different the code iterates to next
+			position or direction
+			- Bugs fixed: Issue in incrementing when determining when to take the position from the bottom right
+			corner of the table to the top left: fixed, Flaw in logic determining if diagonal up word would fit:
+			fixed
+			- Implemented adding randomly generated letters into the remaining open spots in the word search
+			- Commented out everything used for debugging and checking
+			- Finished code
